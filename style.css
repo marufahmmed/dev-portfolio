@@ -8,26 +8,28 @@ h1{
 .hero{
     display: flex;
 }
-.hero div{
+.half-width{
     width: 50%;
-    padding: 30px;
-}
-.hero-right img{
-    width: 80%;
-    margin-left: 30px;
+    padding: 20px;
+    margin-left: 20px;
+
 
 }
-.hero-left{
-    margin-left: 20px;
+.half-width img{
+    width: 80%;
+    margin-left: 30px;
+    
+
 }
-.hero-left a{
+
+.half-width a{
     text-decoration: none;
     background-image: linear-gradient(orange, red);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
 }
-.hero-left h1 span{
+.half-width h1 span{
     color: orangered;
 }
 .hero{
@@ -35,6 +37,16 @@ h1{
     background-repeat: no-repeat;
 
 }
-.hero-left p {
+.half-width p {
 	color: dimgray;
+    padding: 10px;
+    width: 80%;
+}
+/* MIDDLE section */
+.middle-area{
+    display: flex;
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
