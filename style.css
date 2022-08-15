@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .hero{
     display: flex;
 }
@@ -49,4 +52,29 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+/* Experience section */
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box{
+    display: flex;
+}
+
+.box .half-width{
+    width: 40%;
+    box-shadow: 10px 10px 10px 10px gray;
+    margin-left: 5%;
+    border-left: 10px solid orangered;
+}
+.box .half-width h3{
+    color: orangered;
+}
+#pro-dev{
+    border: 7px solid ;
+    border-image: linear-gradiant(orange, red);
+    border-image-slice: 1;
 }
