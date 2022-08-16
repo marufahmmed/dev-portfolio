@@ -68,13 +68,24 @@ h2{
     width: 40%;
     box-shadow: 10px 10px 10px 10px gray;
     margin-left: 5%;
-    border-left: 10px solid orangered;
+    
 }
 .box .half-width h3{
     color: orangered;
 }
+
 #pro-dev{
-    border: 7px solid ;
-    border-image: linear-gradiant(orange, red);
-    border-image-slice: 1;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, red);
+    border-image-slice:1 ;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice:1 ;
+}
+footer{
+    color: dimgray;
+    text-align: center;
+    margin: 200px 0 20px 0;
 }
